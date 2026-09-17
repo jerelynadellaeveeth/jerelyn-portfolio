@@ -136,3 +136,36 @@ nav h1 {
         gap: 15px;
     }
 }
+#about {
+    padding: 80px 10%;
+    background-color: white;
+    text-align: center;
+}
+
+#about h2 {
+    color: #0b2e6d;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+#about p {
+    max-width: 800px;
+    margin: 0 auto 25px;
+    line-height: 1.7;
+}
+
+#about h3 {
+    color: #0b2e6d;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#about ul {
+    list-style-position: inside;
+    padding: 0;
+    margin-bottom: 25px;
+}
+
+#about li {
+    margin: 8px 0;
+}
