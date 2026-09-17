@@ -23,12 +23,14 @@
       </section>
 
       <section id="about">
-        <h2>About Me</h2>
-        <p>
-          I am an Information Systems student passionate about technology,
-          web development, and building practical digital solutions.
-        </p>
-      </section>
+  <h2>About Me</h2>
+  <p>
+    I am an Information Systems student with an interest in web development,
+    technology, and creating practical digital solutions. I enjoy learning
+    new technologies and applying them to projects that are useful and
+    user-friendly.
+  </p>
+</section>
 
       <section id="skills">
         <h2>Skills</h2>
