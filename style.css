@@ -346,3 +346,63 @@ body {
 .nav-links a:hover {
     color: white;
 }
+
+
+/* Activity 7: Contact Form */
+#contact {
+    padding: 80px 10%;
+    text-align: center;
+}
+
+#contact h2 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: pink;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.contact-form label {
+    color: black;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    font: inherit;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: 2px solid #d96b8a;
+    border-color: #d96b8a;
+}
+
+.contact-form button {
+    padding: 12px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #444;
+}
