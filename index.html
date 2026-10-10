@@ -6,7 +6,7 @@
     <title>Jerelyn Teves Adella | Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
+<body>
 <!-- Activity 6: Navigation Menu -->
 <nav class="navbar">
     <div class="logo">JERELYN ADELLA</div>
@@ -21,7 +21,7 @@
     </ul>
 </nav>
 
-<body>
+
 
     <main>
 
@@ -75,7 +75,7 @@
 <ul>
     <li>Listening to music</li>
     <li>Watching movies and anime</li>
-    <li>Exploring new places  experieandnces</li>
+    <li>Exploring new places  experiences</li>
     <li>Learning about new technologies</li>
     
 </ul>
@@ -137,10 +137,6 @@
 
     </div>
 </section>
-</main>
-
-</body>
-</html>
 
 
 <!-- Activity 4: Projects Section -->
@@ -233,7 +229,7 @@
 <section id="contact">
     <h2>Contact Me</h2>
 
-    <form class="contact-form">
+   <form class="contact-form" id="contactForm">
         <label for="name">Name</label>
         <input type="text" id="name" name="name"
                placeholder="Enter your name" required>
@@ -252,5 +248,32 @@
                   rows="5" required></textarea>
 
         <button type="submit">Send Message</button>
+        <p id="formStatus" role="status"></p>
     </form>
 </section>
+
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Jerelyn Teves Adella. All rights reserved.</p>
+</footer>
+
+<script>
+    const contactForm = document.getElementById("contactForm");
+    const formStatus = document.getElementById("formStatus");
+
+    contactForm.addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        formStatus.textContent =
+            "Thank you! Your form has been submitted successfully.";
+
+        formStatus.style.color = "pink";
+
+        contactForm.reset();
+    });
+</script>
+
+</body>
+</html>
