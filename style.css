@@ -407,6 +407,13 @@ body {
     background-color: #444;
 }
 
+#formStatus {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
 
 
 /* Activity 8: Make It Work on Phones */
